@@ -13,7 +13,7 @@ componentDidMount() {
 	
 	//create a collection of page calls to execute 
 	const ops = [];
-    const numPages = 3;
+    const numPages = 5;
 	const url ='https://api.github.com/repos/angular/angular/issues'
     for (let page = 1; page < numPages; page += 1) {
       let op = axios.get(url,{
