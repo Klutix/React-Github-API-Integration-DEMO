@@ -7,7 +7,7 @@ Simple Demo that uses Gitbub's REST API with React to display some issue data in
 
 **For Deployement:** NodeJs, React, axios
    
-## Setup(for Windows)
+## Setup
 
 First download or clone the repositiory and unzip the directory into a folder.  
 
