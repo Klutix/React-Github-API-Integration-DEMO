@@ -1,0 +1,93 @@
+* {margin: 0; padding: 0;}
+
+
+
+header {
+  position: float;
+  top: 0;
+  width: 100%;
+  padding: 5px 0px 6px 0px;
+  text-align: left;
+  background: #006666;
+  color: white;
+  font-size: 10px; 
+}
+ 
+div {
+  margin: 20px;
+ 
+}
+
+
+ 
+ul {
+  list-style-type: none;
+  width: 1350px;
+}
+
+br {
+            display: block; 
+            content: ""; 
+            margin-top: 0; 
+}
+
+ 
+h3{
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+  color: teal;
+
+}
+
+h2{
+  font: bold 15px/1.5 Helvetica, Verdana, sans-serif;
+  background:#2f302f;
+}
+h1{
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+  color: blue
+}
+ 
+li img {
+  width: 50px;
+  float: left;
+  margin: 0 15px 0 0;
+  
+}
+
+.header {
+  color: white;
+}
+
+.subheader {
+  color: lightgrey;
+}
+
+.title{
+  color: darkblue;
+}
+
+body{
+  background-image: url("avatar.png");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  padding:10px;
+  opacity: 1.0;
+}
+
+ 
+li p {
+  
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+li {
+  margin: 0px 15px 10px 0;
+  padding: 10px;
+  overflow: auto;
+  background:#eee;
+}
+ 
+
