@@ -11,7 +11,7 @@ Simple Demo that uses Gitbub's REST API with React to display some issue data in
 
 First download or clone the repositiory and unzip the directory into a folder.  
 
-Next install NodeJs(https://nodejs.org/en/download/) if you missing it.  OS specific instructions can be found [here.](https://www.taniarascia.com/how-to-install-and-use-node-js-and-npm-mac-and-windows/)
+Next install [NodeJs](https://nodejs.org/en/download/) . OS specific instructions can be found [here.](https://www.taniarascia.com/how-to-install-and-use-node-js-and-npm-mac-and-windows/)
 
 Next install React through npm which comes with Nodejs.  
 
