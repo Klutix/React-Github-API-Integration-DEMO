@@ -1,7 +1,7 @@
 # React-Github-API-Integration-DEMO
 Simple Demo that uses Gitbub's REST API with React to display some issue data in the Angular Repo
 
-![ReactDemo](https://github.com/Klutix/Images/blob/master/RESTJSON/running.png)
+![ReactDemo](https://github.com/Klutix/Images/blob/master/githubAPI/face.png)
 
 ## Requirements
 
@@ -10,16 +10,17 @@ Simple Demo that uses Gitbub's REST API with React to display some issue data in
 ## Setup(for Windows)
 
 First download or clone the repositiory and unzip the directory into a folder. Next install NodeJs(https://nodejs.org/en/download/) if you missing it.  
+
 Next install React through npm which comes with Nodejs.  
 
-Now open cmd and type..
+Next open cmd and type..
 
 ```bash
 npm install -g create-react-app
 ```
 This installs the react framework.  
 
-Next go ahead using mkdir create a new folder you want the project to live and cd into that folder.  
+Now using mkdir create a new folder you want the project to live and cd into that folder.  
 
 Once inside enter into the command the following..
 
@@ -33,11 +34,11 @@ Once that is finished you will need to install axios. Instructions can be found 
 ```bash
 npm install axios
 ```
-and axious will begin installing.  
+and axios will begin installing.  
 
 At this point you should have all the nessasry requirements to run the project. Navigate into project name of the folder you started. replace the src folder with src folder you cloned in the directory.  
 
-Now in cmd enter in..
+Now in src folder directory in cmd enter in..
 ```bash
 npm start
 ```
