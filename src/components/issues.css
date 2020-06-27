@@ -6,7 +6,7 @@ header {
   position: float;
   top: 0;
   width: 100%;
-  padding: 5px 0px 6px 0px;
+  padding: 5px 0px 6px 10px;
   text-align: left;
   background: #006666;
   color: white;
@@ -41,6 +41,7 @@ h3{
 h2{
   font: bold 15px/1.5 Helvetica, Verdana, sans-serif;
   background:#2f302f;
+  padding: 0px 0px 0px 10px;
 }
 h1{
   font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
