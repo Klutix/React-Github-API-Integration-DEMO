@@ -26,16 +26,12 @@ componentDidMount() {
       ops.push(op);
     }
 	//excecute all page calls
-	axios.all(ops).then(axios.spread((...response) => {	
-	this.setState({ issues: response[0].data })
-	
+	axios.all(ops).then(axios.spread((...response) => {		
 	//join results
-	for (let page = 1; page < numPages; page += 1) {
-		
+	for (let page = 0; page < numPages; page += 1) {	
 		var joined = null
 		joined = this.state.issues.concat(response[page].data);
 	    this.setState({ issues: joined })
-		
 	}
 	
 })).catch(error => {

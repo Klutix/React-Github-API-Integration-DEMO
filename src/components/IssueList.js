@@ -6,10 +6,12 @@ class IssuesList extends React.Component {
 	{/*create a date we can compare against to show 7 days back*/}
 	var d = new Date();
 	d.setDate(d.getDate()-7);
-	d = d.toISOString()
+	
+	//convert date into comparable form and removed time so results are more accurate
+	d = d.toISOString().substr(0,10)
 	
 	{/*filter out all not within the range we want*/}
-	const filteredData = this.props.issues.filter(issue => issue.created_at > d)  
+	const filteredData = this.props.issues.filter(issue => issue.created_at.substr(0,10) >= d)  
     
 	return (
     <div>
