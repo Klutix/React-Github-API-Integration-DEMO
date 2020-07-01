@@ -38,7 +38,7 @@ and axios will begin installing.
 
 At this point you should have all the nessasry requirements to run the project. Navigate into project name of the folder you started. replace the src folder with src folder you cloned in the directory.  
 
-Now in src folder directory using cmd type in..
+Now in project folder directory using cmd type in..
 ```bash
 npm start
 ```
